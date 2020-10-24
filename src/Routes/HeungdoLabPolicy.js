@@ -33,7 +33,7 @@ export default () => (
       <Title>Privacy Policy</Title>
       <Item>
         1. Purpose of processing personal information
-        <br />- ‘Todo Secretary’ handles personal information for the following
+        <br />- ‘Heungdo Lab’ handles personal information for the following
         purposes and do not use it for any purpose other than the following.
       </Item>
       <Content>
@@ -44,7 +44,7 @@ export default () => (
       </Content>
       <Item>2. Processing and retention period of personal information</Item>
       <Content>
-        ① When collecting personal information from customers, ‘Todo Secretary’
+        ① When collecting personal information from customers, ‘Heungdo Lab’
         processes and retain personal information within the agreed period of
         personal information retention and utilization or the period of personal
         information retention and use under statutes.
@@ -61,7 +61,7 @@ export default () => (
       </Item>
       <Content>
         ① Customer may exercise the following privacy rights to Heungdo
-        Lab(‘Todo Secretary') at any time.
+        Lab(‘Heungdo Lab') at any time.
         <br />
         <br />
         1. Requesting personal information access
@@ -77,14 +77,13 @@ export default () => (
       </Content>
       <Item>4. Items for processing personal information</Item>
       <Content>
-        ① 'Todo Secretary' is processing the following personal information
-        items.
+        ① 'Heungdo Lab' is processing the following personal information items.
         <br />
         <br />- Required item: None
       </Content>
       <Item>
         5. Destruction of personal information
-        <br />- In principle, 'Todo Secretary' destroys the personal information
+        <br />- In principle, 'Heungdo Lab' destroys the personal information
         without delay if the purpose of personal information processing is
         achieved. Procedure, deadline, and method for personal information
         destruction are as follows.
@@ -112,8 +111,8 @@ export default () => (
         personal information collection devices
       </Item>
       <Content>
-        Heungdo Lab(‘Todo Secretary') does not use 'cookies' that store
-        information of the information subject and recall frequently.
+        Heungdo Lab(‘Heungdo Lab') does not use 'cookies' that store information
+        of the information subject and recall frequently.
       </Content>
       <Item>7. Personal Information Protection Officer</Item>
       <Content>
@@ -128,8 +127,8 @@ export default () => (
         inquiries, complaints, and damage relief that occurred while using the
         service.
         <br />
-        Heungdo Lab(‘Todo Secretary') will respond and process customer
-        inquiries without delay.
+        Heungdo Lab(‘Heungdo Lab') will respond and process customer inquiries
+        without delay.
       </Content>
       <Item>8. Change of privacy policy</Item>
       <Content>
