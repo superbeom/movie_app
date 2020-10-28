@@ -1,6 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const MainContainer = styled.div`
   width: 100%;
@@ -8,12 +9,16 @@ const MainContainer = styled.div`
   flex-direction: "row";
 `;
 
-const ImageBox = styled.div`
+const ImageBox = styled.button`
   width: 300px;
-  height: 650px;
-  background-color: ${(props) => props.theme.yellowColor};
+  height: 300px;
+  background-color: ${(props) => props.theme.bgColor};
   &:not(:last-child) {
     margin-right: 10px;
+  }
+  border-width: 0;
+  &:hover {
+    cursor: pointer;
   }
 `;
 
@@ -21,6 +26,7 @@ const Image = styled.img`
   width: inherit;
   max-width: 100%;
   height: 100%;
+  border-radius: 30px;
 `;
 
 export default () => {
@@ -30,36 +36,22 @@ export default () => {
         <title>Heungdo Lab</title>
       </Helmet>
       <MainContainer>
-        <ImageBox>
-          <Image
-            src={require("../images/screenshot1.png")}
-            alt="Screenshot 1"
-          />
-        </ImageBox>
-        <ImageBox>
-          <Image
-            src={require("../images/screenshot2.png")}
-            alt="Screenshot 2"
-          />
-        </ImageBox>
-        <ImageBox>
-          <Image
-            src={require("../images/screenshot3.png")}
-            alt="Screenshot 3"
-          />
-        </ImageBox>
-        <ImageBox>
-          <Image
-            src={require("../images/screenshot4.png")}
-            alt="Screenshot 4"
-          />
-        </ImageBox>
-        <ImageBox>
-          <Image
-            src={require("../images/screenshot5.png")}
-            alt="Screenshot 5"
-          />
-        </ImageBox>
+        <Link to="/todosecretary">
+          <ImageBox>
+            <Image
+              src={require("../images/todo_secretary_logo.png")}
+              alt="Todo Secretary Logo"
+            />
+          </ImageBox>
+        </Link>
+        <Link to="/guessmynumber">
+          <ImageBox>
+            <Image
+              src={require("../images/guess_my_number_logo.png")}
+              alt="Guess My Number Logo"
+            />
+          </ImageBox>
+        </Link>
       </MainContainer>
     </>
   );
