@@ -52,6 +52,14 @@ export default () => {
             />
           </ImageBox>
         </Link>
+        <Link to="/flipcard">
+          <ImageBox>
+            <Image
+              src={require("../images/flip_card_logo.png")}
+              alt="Memory Matching Game Logo"
+            />
+          </ImageBox>
+        </Link>
       </MainContainer>
     </>
   );

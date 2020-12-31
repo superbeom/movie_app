@@ -79,7 +79,10 @@ export default () => (
       <Content>
         ① 'Heungdo Lab' is processing the following personal information items.
         <br />
-        <br />- Required item: None
+        {/* <br />- Required item: None */}
+        <br />- Username
+        <br />
+        <br />- Password: The password is encrypted and stored.
       </Content>
       <Item>
         5. Destruction of personal information
