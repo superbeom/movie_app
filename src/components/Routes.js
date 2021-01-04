@@ -1,12 +1,10 @@
 import React from "react";
-import { Route, Switch, withRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import Main from "../Routes/Main";
 import TodoSecretary from "../Routes/TodoSecretary";
 import GuessMyNumber from "../Routes/GuessMyNumber";
 import FlipCard from "../Routes/FlipCard";
-import AppAds from "../Routes/AppAds";
 import HeungdoLabPolicy from "../Routes/HeungdoLabPolicy";
-import NotFound from "../Routes/NotFound";
 
 export default withRouter(({ history }) => {
   const {
